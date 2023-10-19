@@ -20,6 +20,7 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
+    "strictNullChecks": true,
 
     /* Linting */
     "strict": true,
@@ -29,6 +30,7 @@
      "paths": {
       "@/*": ["./src/*"],
     }
+    
   },
   "include": ["../vite.config.ts", ".eslintrc.cjs", "src"],
   "references": [{ "path": "./tsconfig.node.json" }]
